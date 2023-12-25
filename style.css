@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #D50000;
+}
+
+/* 更多样式可以根据需要添加 */
