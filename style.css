@@ -62,4 +62,29 @@ button:hover, .grid-item:hover, footer a:hover {
     }
 }
 
-/* 可根据需要添加更多样式 */
+#overview {
+    text-align: center;
+    padding: 20px;
+}
+
+#blessings-container {
+    max-height: 200px; /* 初始高度限制 */
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+#show-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#show-more:hover {
+    background-color: #3f51b5;
+}
+
